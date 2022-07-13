@@ -5,12 +5,16 @@ print("Mr. Mercer is amazing!");
 println("")
 //
 // Concatenation
-String mr = "Mr"
-char space = '.'
-char space = ' '
+String mr = "Mr";
+char space = '.';
 String teacher = "Mercer";
-String areYouserious = "amazing";
+String is = "is";
+String areYouSerious = "amazing";
 char exclamation = '!';
 //
-println(mr,period,teacher, is, areYouserious);
+println(mr, period,teacher, is, areYouSerious);
 println("mr+period+space+teacher+space+is+space+areYouserious+exclemation");
+//
+println(mr+period, teacher, is, areYouSerious+exclamation);
+//
+println(mr+period, teacher, is, period+period+period, "/t/t/t"+areYouSerious+exclamation);

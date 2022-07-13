@@ -14,9 +14,9 @@ void setup() {
   size(2000, 1500);
   println(width, height, displayWidth, displayHeight);
   //CANVAs will only display when it is smaller than the DISPLAY
-  if (width >= displayWidth) appWidth = exit();//Canvas is Broken
-  if (height >= displayHeight) appHeight = exit();//Canvas is Broken
-  if () ;
+  if (width >= displayWidth) exit();
+  if (height >= displayHeight) exit();
+  if (width >= displayWidth || height >= displayHeight) println("CANVAS is broken, bigger than display"); //ERROR catch
   //println special
   //
 }//End setup

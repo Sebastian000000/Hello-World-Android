@@ -1,10 +1,5 @@
 //Global Variables
 //
-println("Hello World");
-print("Mr. Mercer is amazing!");
-println("")
-//
-// Concatenation
 String mr = "Mr";
 char period = '.';
 char space = ' ';
@@ -13,6 +8,21 @@ String is = "is";
 String areYouSerious = "amazing";
 char exclamation = '!';
 //
-//println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation);
-//138: period=46(ascii decimal number), thus 46*3=138 (or period+period+period)
+void setup() {
+ //Canvas Setup
+  //fullScreen();
+  size(300, 200);
+  println(width, height, displayWidth, displayHeight);
+  //
+}//End setup
 //
+void draw() {
+//println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation);
+//
+}//End draw
+//
+void keyPressed() {}//End keyPressed
+//
+void mousePressed() {}//End mousePressed
+//
+//End MAIN Program

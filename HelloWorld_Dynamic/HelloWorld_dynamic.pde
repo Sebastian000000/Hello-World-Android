@@ -11,8 +11,13 @@ char exclamation = '!';
 void setup() {
  //Canvas Setup
   //fullScreen();
-  size(300, 200);
+  size(2000, 1500);
   println(width, height, displayWidth, displayHeight);
+  //CANVAs will only display when it is smaller than the DISPLAY
+  if (width >= displayWidth) appWidth = exit();//Canvas is Broken
+  if (height >= displayHeight) appHeight = exit();//Canvas is Broken
+  if () ;
+  //println special
   //
 }//End setup
 //

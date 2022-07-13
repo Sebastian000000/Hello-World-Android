@@ -6,7 +6,8 @@ println("")
 //
 // Concatenation
 String mr = "Mr";
-char space = '.';
+char period = '.';
+char space = ' ';
 String teacher = "Mercer";
 String is = "is";
 String areYouSerious = "amazing";
